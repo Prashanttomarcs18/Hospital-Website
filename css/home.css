@@ -1,0 +1,1045 @@
+body
+{
+  width:100%;
+  overflow-x:hidden;
+}
+
+
+*{
+      margin:0; padding:0; box-sizing: border-box;
+      font-family: 'Josefin Sans', sans-serif;
+ }
+
+nav{
+     width:100% ; height:15vh;
+     color:white; display:flex; justify-content: space-between;
+     align-items:center; text-transform:uppercase;
+}
+
+body {
+background: white;
+font-family: 'Montserrat', sans-serif;
+height: 100vh;
+background-image: url("../img/Bangalore/bangl1.jpg");
+background-repeat: no-repeat ;
+background-size: 1535px 700px;
+background-position: 0px 220px;
+}
+
+
+.marqueebar {
+  background-color: #5f696b; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:8px;
+  width:1535px;
+  padding-top: 37px;
+  position:absolute;
+  top:-4px;
+  left:-2px;
+}
+p.marqueetext {
+ 
+  padding-top: 2px;
+  position:absolute;
+  top:14px;
+  left:0px;
+  font-size:16px;
+}
+.redbar {
+  background-color: #de0000; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:78px;
+  width:235px;
+  padding-top: 37px;
+  position:absolute;
+  top:1000px;
+  left:1025px;
+}
+.redbartext {
+  padding-top: 2px;
+  position:absolute;
+  top:1017px;
+  left:1035px;
+  font-size:22px;
+line-height:25px;
+}
+
+
+
+
+
+.about {
+  background-color:#004c8f; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+  height:8px;
+  width:130px;
+  padding-top: 37px;
+  position:absolute;
+  top:156px;
+  left:345px;
+}
+.linkabout
+{
+ color:white;
+  letter-spacing: 1px;
+  font-size:17px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:177px;
+  left:382px;
+font-size:16px;
+}
+.patient
+{
+ color:black;
+  letter-spacing: 1px;
+  font-size:17px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:177px;
+  left:540px;
+font-size:14px;
+}
+.patient:hover
+{
+ color:#66d2de;
+}
+.special
+{
+ color:black;
+  letter-spacing: 1px;
+  font-size:17px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:177px;
+  left:725px;
+font-size:14px;
+}
+.special:hover
+{
+ color:#66d2de;
+}
+.appointment
+{
+ color:black;
+  letter-spacing: 1px;
+  font-size:17px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:177px;
+  left:910px;
+font-size:14px;
+}
+.appointment:hover
+{
+ color:#66d2de;
+}
+.bluebar {
+  background-color:#3156A3; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:25px;
+  width:300px;
+  padding-top: 37px;
+  position:absolute;
+  top:1130px;
+  left:975px;
+}
+.bluebartext {
+padding-top: 2px;
+  position:absolute;
+  top:1145px;
+  left:990px;
+  font-size:22px;
+}
+
+
+.heartcareimage {
+  background-image: url("../img/Bangalore/download.png");
+   margin: 4px 2px;
+  height: 70px;
+  width:70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+ top:1205px;
+  left:977px;
+background-repeat: no-repeat ;
+}
+
+
+.hero-image5 {
+  background-image: url("../img/Bangalore/logo2.png");
+  border-radius: 14px;
+  height: 150px;
+  width:150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:57px;
+  left:110px;
+
+}
+.text1 {
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1400px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text1:hover {
+  color:#3156A3;
+  cursor: pointer;
+}
+
+.text2 {
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1440px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text2:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+.text3 {
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1480px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text3:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+.text4 {
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1520px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text4:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+.text5{
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1560px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text5:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+
+.text6{
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1600px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text6:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+
+.text7{
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1640px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text7:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+
+.text8{
+  color:black;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1680px;
+  left:900px;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text8:hover {
+  color:#2dc0fa;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.button3 {
+  background-color: #3156A3; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+
+  height:2px;
+  width:130px;
+  padding-top: 37px;
+  position:absolute;
+  top:1270px;
+  left:1115px;
+}
+.link3
+{
+ color:black;
+  letter-spacing: 1px;
+  font-size:17px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+   top:1285px;
+  left:1135px;
+font-size:16px;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hearttext
+{
+ color:black;
+  letter-spacing: 1px;
+
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:1210px;
+  left:1060px;
+  font-size:11px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logoimage {
+  background-image: url("../img/Bangalore/b4.jpeg");
+  border-radius: 14px;
+  height: 150px;
+  width:250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:58px;
+  left:250px;
+}
+
+
+
+
+
+.image4 {
+  background-image: url("../img/Bangalore/sevenhills-eeasy-card.jpg");
+  border-radius: 2px;
+  height: 200px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:1000px;
+  left:250px;
+margin-bottom:500px;	
+}
+.image4textbox {
+  background-color: #edede6; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:70px;
+  width:300px;
+  padding-top: 37px;
+  position:absolute;
+  top:1190px;
+  left:248px;
+}
+
+.image4text{
+ 
+padding-top: 2px;
+  position:absolute;
+  top:1210px;
+  left:290px;
+  font-size:14px;
+line-height:20px;
+text-decoration:none;
+}
+
+
+
+
+
+
+.image6 {
+  background-image: url("../img/Bangalore/sevenhills-Achievements.jpg");
+  border-radius: 2px;
+  height: 200px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:1300px;
+  left:600px;
+margin-bottom:500px;	
+}
+.image6textbox {
+  background-color: #edede6; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:70px;
+  width:300px;
+  padding-top: 37px;
+  position:absolute;
+  top:1490px;
+  left:598px;
+}
+.image6text{
+  padding-top: 2px;
+  position:absolute;
+  top:1510px;
+  left:290px;
+  font-size:14px;
+line-height:20px;
+text-decoration:none;
+}
+
+
+
+.image7 {
+  background-image: url("../img/Bangalore/sevenhills-consultants.jpg");
+  border-radius: 2px;
+  height: 200px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:1300px;
+  left:250px;
+margin-bottom:500px;	
+}
+.image7textbox {
+  background-color: #edede6; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:70px;
+  width:300px;
+  padding-top: 37px;
+  position:absolute;
+  top:1490px;
+  left:248px;
+}
+
+.image7text {
+  padding-top: 2px;
+  position:absolute;
+  top:1510px;
+  left:635px;
+  font-size:14px;
+line-height:20px;
+text-decoration:none;
+}
+
+
+
+
+.image9 {
+  background-image: url("../img/Bangalore/sevenhills-patient-feedback.jpg");
+  border-radius: 2px;
+  height: 200px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:1904px;
+  left:610px;
+margin-bottom:500px;	
+}
+.image9textbox {
+  background-color: #edede6; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:70px;
+  width:300px;
+  padding-top: 37px;
+  position:absolute;
+  top:2100px;
+  left:608px;
+}
+
+.image9text {
+  padding-top: 2px;
+  position:absolute;
+  top:2120px;
+  left:645px;
+  font-size:14px;
+text-decoration:none;
+line-height:20px;
+}
+
+
+.image10textbox {
+  background-color: #edede6; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:70px;
+  width:300px;
+  padding-top: 37px;
+  position:absolute;
+  top:2100px;
+  left:963px;
+}
+
+.image10text {
+  padding-top: 2px;
+  position:absolute;
+  top:2120px;
+  left:995px;
+  font-size:14px;
+text-decoration:none;
+line-height:20px;
+}
+
+
+
+p.centers {
+  padding-top: 2px;
+  position:absolute;
+   top:1360px;
+  left:1000px;
+  letter-spacing: 1px;
+  font-size:24px;
+line-height:20px;
+text-decoration: underline;
+}
+
+p.more {
+  padding-top: 2px;
+  position:absolute;
+  top:1810px;
+  left:235px;
+  font-size:24px;
+line-height:20px;
+text-decoration:underline;
+ letter-spacing: 1px;
+  text-decoration-color: black;
+}
+
+p.nav {
+  padding-top: 2px;
+  position:absolute;
+   top:2460px;
+  left:250px;
+  font-size:24px;
+  letter-spacing: 1px;
+line-height:20px;
+color:white;
+}
+
+p.branch {
+  padding-top: 2px;
+  position:absolute;
+   top:2460px;
+  left:1100px;
+  font-size:24px;
+  letter-spacing: 1px;
+line-height:20px;
+color:white;
+}
+p.hos{
+padding-top: 2px;
+  position:absolute;
+  letter-spacing: 1px;
+   top:2500px;
+  left:260px;
+  font-size:12px;
+line-height:20px;
+color:#c4c4c4;
+}
+
+.text13{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2530px;
+  left:235px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text14{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2560px;
+  left:235px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text15{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2590px;
+  left:235px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text16{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2620px;
+  left:235px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text17{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2650px;
+  left:235px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+
+.text18{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2530px;
+  left:475px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+
+.text19{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2560px;
+  left:475px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+
+.text20{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2530px;
+  left:775px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+
+.text21{
+ color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2530px;
+  left:975px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.8;
+}
+
+.text22{
+ color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2650px;
+  left:970px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.8;
+}
+
+
+p.locateus {
+  padding-top: 2px;
+  position:absolute;
+  top:102px;
+  left:690px;
+  font-size:16px;
+}
+
+p.careers
+{
+  padding-top: 2px;
+  position:absolute;
+  top:102.5px;
+  left:795px;
+  font-size:16px;
+}
+
+p.news
+{
+  padding-top: 2px;
+  position:absolute;
+  top:102.5px;
+  left:890px;
+  font-size:16px;
+}
+p.contact
+{
+  padding-top: 2px;
+  position:absolute;
+  top:102.6px;
+  left:965px;
+  font-size:16px;
+}
+
+p.Emergency
+{
+  padding-top: 2px;
+  position:absolute;
+  top:67px;
+  left:1158px;
+  font-size:16px;
+}
+p.number
+{
+  padding-top: 2px;
+  position:absolute;
+  top:142px;
+  left:1150px;
+  font-size:16px;
+}
+
+
+
+.button2 {
+  background-color: #f5605b; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  height:8px;
+  width:130px;
+  padding-top: 37px;
+  position:absolute;
+  top:86px;
+  left:1145px;
+}
+.link2
+{
+ color:black;
+  letter-spacing: 1px;
+  font-size:17px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:105px;
+  left:1175px;
+font-size:18px;
+}
+
+
+#rcorners21 {
+
+  background-color:#363636;
+  padding: 20px; 
+  width: 1520px;
+  height: 650px;  
+  position:absolute;
+  top:2270px;
+  left:0px;
+  margin-bottom: 10px;
+ 
+}
+
+
+
+#rcorners22 {
+  background-color:#00d9d9; 
+  padding: 20px; 
+  width:350px;
+  height:150px;  
+  position:absolute;
+  top:2270px;
+  left:250px;
+
+}
+#rcorners23 {
+  background-color:#0088ff; 
+ padding: 20px; 
+   width: 350px;
+  height: 150px;  
+  position:absolute;
+  top:2270px;
+  left:600px;
+
+}
+#rcorners24	 
+{
+  background-color:#0986b8; 
+ padding: 20px; 
+  width: 350px;
+  height: 150px;  
+  position:absolute;
+   top:2270px;
+  left:950px;
+margin-bottom:30px;
+}
+
+.text9{
+ color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2290px;
+  left:180px;
+  font-size:22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.text10{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2330px;
+  left:265px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text10:hover
+
+{
+  text-decoration:underline;
+}
+
+.text11{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2330px;
+  left:615px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text11:hover
+
+{
+  text-decoration:underline;
+}
+.text12{
+color:white;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:2330px;
+  left:965px;
+  font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+line-height:1.4;
+}
+.text12:hover
+
+{
+  text-decoration:underline;
+}
+
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
